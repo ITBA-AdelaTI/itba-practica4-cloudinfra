@@ -7,15 +7,15 @@
 * [4-Bajar Credenciales](#4-Bajar-Credenciales)
 * [5-Conectarse a la Instancia](#5-Conectarse-a-la-Instancia)
 * [6-Instalar Docker](#6--Instalar-Docker)
-* [7-Instalar la Imagen de Frontned](#7--Instalar-la-Imagen-de-Frontned)
-* [8-Exponer la imagen via Security Group](#8--Exponer-la-imagen-via-Security-Group)
+* [7-Instalar la images/Imagen de Frontned](#7--Instalar-la-images/Imagen-de-Frontned)
+* [8-Exponer la images/Imagen via Security Group](#8--Exponer-la-images/Imagen-via-Security-Group)
 * [9-Probar la App](#9--Probar-la-App)
 
 
 ## 1-Setup Student AWS
 https://www.awseducate.com/Registration?token=df86d904630595c577b383763253c42d#INFO-Student
 
-![alt text](Image1.png)
+![alt text](images/Image1.png)
 
 ## 2-Consola
 https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2
@@ -25,11 +25,11 @@ https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:
 
 ### 1- Launch Instance
 
-![alt text](Image3-1.png)
+![alt text](images/Image3-1.png)
 
 ### 2- Seleccionar "Amazon Linux 2 AMI (HVM), SSD Volume Type"
 
-![alt text](Image3-2.png)
+![alt text](images/Image3-2.png)
 
 ### 3-Review and Launch 2 veces
 
@@ -43,11 +43,11 @@ https://putty.org/
 ## 5-Conectarse a la Instancia
 
 Obtener la dirección de la isntancia:
-![alt text](Image5-1.png)
+![alt text](images/Image5-1.png)
 
 Conectarse a la instancia desde el Putty (https://docs.aws.amazon.com/es_es/AWSEC2/latest/UserGuide/putty.html)
 
-![alt text](Image5-2.png)
+![alt text](images/Image5-2.png)
 
 ## 6- Instalar Docker
 
@@ -64,14 +64,14 @@ Revisar si Docker está instalado
 ```
 docker version
 ```
-![alt text](Image6.png)
-## 7- Instalar la Imagen de Frontned
-### Pullear la Imagen del front (fcatinello/demo-vuejs)
+![alt text](images/Image6.png)
+## 7- Instalar la images/Imagen de Frontned
+### Pullear la images/Imagen del front (fcatinello/demo-vuejs)
 Ejecutar el siguiente comando
 ```
 docker pull fcatinello/demo-vuejs
 ```
-## Correr la imagen del front
+## Correr la images/Imagen del front
 Ejecutar el siguiente comando
 ```
 docker run fcatinello/demo-vuejs
@@ -81,13 +81,14 @@ Ejecutar el siguiente comando
 ```
 docker ps
 ```
-## 8- Exponer la imagen via Security Group
+## 8- Exponer la images/Imagen via Security Group
 Navegar a Network Security->Security Group
 Seleccionar "launch-wizard-1"
 Seleccionar Solapa "Inbound"
 Agregar un puerto 80
-![alt text](Image8.png)
+![alt text](images/Image8.png)
 
 ## 9- Probar la App
-Obtener la dirección pública de la imagen
+Obtener la dirección pública de la images/Imagen
 Llamarla desde el Browser
+![alt text](images/Image9.png)
