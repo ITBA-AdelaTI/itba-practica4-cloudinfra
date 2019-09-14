@@ -35,10 +35,11 @@ https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:
 
 ![alt text](images/Image3-3.png)
 
-### 3-Review and Launch 2 veces
+### 3-Review and Launch 2 veces y Launch
 
 ## 4-Bajar Credenciales
-Seleccionar la Instancia recien creada y click en el Boton "Connect"
+Definir un nombre del certificado "itba"
+![alt text](images/Image4.png)
 
 ## Instalar Putty
 
