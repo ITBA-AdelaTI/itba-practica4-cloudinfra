@@ -1,10 +1,25 @@
 # Practica 4 - Infraestructura Cloud
+## Indice
+
+* [1-Setup Student AWS](#1-Setup-Student-AWS)
+* [2-Consola / Ohio / Ver VPC](#2-Consola)
+* [3-Crear Instancia](#3-Crear-Instancia)
+* [4-Bajar Credenciales](#4-Bajar-Credenciales)
+* [5-Conectarse a la Instancia](#5-Conectarse-a-la-Instancia)
+* [6-Instalar Docker](#6--Instalar-Docker)
+* [7-Instalar la Imagen de Frontned](#7--Instalar-la-Imagen-de-Frontned)
+* [8-Exponer la imagen via Security Group](#8--Exponer-la-imagen-via-Security-Group)
+* [9-Probar la App](#9--Probar-la-App)
+
+
 ## 1-Setup Student AWS
 https://www.awseducate.com/Registration?token=df86d904630595c577b383763253c42d#INFO-Student
 
 ![alt text](Image1.png)
-## 2-Consola / Ohio / Ver VPC
+
+## 2-Consola
 https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2
+
 ## 3-Crear Instancia
 https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=instanceId
 
@@ -26,6 +41,7 @@ Seleccionar la Instancia recien creada y click en el Boton "Connect"
 https://putty.org/
 
 ## 5-Conectarse a la Instancia
+
 Obtener la dirección de la isntancia:
 ![alt text](Image5-1.png)
 
@@ -33,7 +49,8 @@ Conectarse a la instancia desde el Putty (https://docs.aws.amazon.com/es_es/AWSE
 
 ![alt text](Image5-2.png)
 
-## 6- Instalar Docker en Instancia
+## 6- Instalar Docker
+
 Ejecutar el siguiente comando
 ```
 sudo yum install docker
@@ -48,7 +65,7 @@ Revisar si Docker está instalado
 docker version
 ```
 ![alt text](Image6.png)
-## 7-Instalar la Imagen de Frontned
+## 7- Instalar la Imagen de Frontned
 ### Pullear la Imagen del front (fcatinello/demo-vuejs)
 Ejecutar el siguiente comando
 ```
@@ -71,8 +88,6 @@ Seleccionar Solapa "Inbound"
 Agregar un puerto 80
 ![alt text](Image8.png)
 
-## 9- Llamar al browser
+## 9- Probar la App
 Obtener la dirección pública de la imagen
-
-Llamar a URL
-## Incorporar Cloud Watch
+Llamarla desde el Browser
