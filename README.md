@@ -31,6 +31,10 @@ https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:
 
 ![alt text](images/Image3-2.png)
 
+### 3- Seleccionar "t2.micro"
+
+![alt text](images/Image3-3.png)
+
 ### 3-Review and Launch 2 veces
 
 ## 4-Bajar Credenciales
