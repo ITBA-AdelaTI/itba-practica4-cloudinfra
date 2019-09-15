@@ -41,9 +41,9 @@ https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:
 Definir un nombre del certificado "itba"
 ![alt text](images/Image4.png)
 
-## Instalar Putty
+## Bajar Putty y PuttyGen (ambos 64bits)
 
-https://putty.org/
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
 
 ## 5-Conectarse a la Instancia
 
@@ -60,7 +60,7 @@ Ejecutar el siguiente comando
 ```
 sudo yum install docker
 ```
-Escubir "y" cuando pregunta
+Escribir "y" cuando pregunta
 Revisar si Docker está instalado
 ```
 sudo service docker start
