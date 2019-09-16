@@ -18,7 +18,7 @@ https://www.awseducate.com/Registration?token=df86d904630595c577b383763253c42d#I
 ![alt text](images/Image1.png)
 
 ## 2-Consola
-https://us-east-2.console.aws.amazon.com/console/home?region=us-east-2
+https://console.aws.amazon.com/ec2/home?region=us-east-1#Home:
 
 ## 3-Crear Instancia
 https://us-east-2.console.aws.amazon.com/ec2/v2/home?region=us-east-2#Instances:sort=instanceId
