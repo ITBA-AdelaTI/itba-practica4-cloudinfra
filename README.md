@@ -54,6 +54,10 @@ Conectarse a la instancia desde el Putty (https://docs.aws.amazon.com/es_es/AWSE
 
 ![alt text](images/Image5-2.png)
 
+### Troubleshooting
+* Recordar incluir "ec2-user@" antes del nombre de la instancia
+* Importar el ppk generado el puttygen
+
 ## 6- Instalar Docker
 
 Ejecutar el siguiente comando
@@ -67,7 +71,7 @@ sudo service docker start
 ```
 Revisar si Docker está instalado
 ```
-docker version
+sudo docker version
 ```
 ![alt text](images/Image6.png)
 ## 7- Instalar la images/Imagen de Frontned
