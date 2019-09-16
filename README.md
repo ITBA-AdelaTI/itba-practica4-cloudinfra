@@ -86,9 +86,9 @@ Ejecutar el siguiente comando
 docker run -p 80:80 fcatinello/demo-vuejs
 ```
 ## Correr Docker PS
-Ejecutar el siguiente comando
+Ejecutar el siguiente comando en otra consola de Putty en la misma instancia
 ```
-docker ps
+sudo docker ps
 ```
 ## 8- Exponer la images/Imagen via Security Group
 Navegar a Network Security->Security Group
