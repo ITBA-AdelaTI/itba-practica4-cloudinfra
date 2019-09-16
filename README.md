@@ -83,7 +83,7 @@ docker pull fcatinello/demo-vuejs
 ## Correr la images/Imagen del front
 Ejecutar el siguiente comando
 ```
-docker run -p 80:80 fcatinello/demo-vuejs
+sudo docker run -p 80:80 fcatinello/demo-vuejs
 ```
 ## Correr Docker PS
 Ejecutar el siguiente comando en otra consola de Putty en la misma instancia
